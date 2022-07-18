@@ -30,7 +30,7 @@
 
   transition: color var(--anim-slow);
 
-  &__title:hover {
+  &:hover {
     color: var(--accent-color);
   }
 }
@@ -40,7 +40,7 @@
 
   transition: color var(--anim-slow);
 
-  &__text:hover {
+  &:hover {
     color: var(--accent-color);
   }
 }

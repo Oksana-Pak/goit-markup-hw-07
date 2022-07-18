@@ -1,8 +1,12 @@
-.portfolio__list {
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 50px;
+.portfolio {
+  @include section(94px);
+
+  &__list {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+  }
 }
 
 .portfolio__item {

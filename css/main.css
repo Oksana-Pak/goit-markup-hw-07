@@ -712,6 +712,10 @@ p {
           transform: translateY(-50%);
 }
 
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .portfolio__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -789,7 +793,7 @@ p {
   -webkit-transition: color var(--anim-slow);
   transition: color var(--anim-slow);
 }
-.exemples__title__title:hover {
+.exemples__title:hover {
   color: var(--accent-color);
 }
 
@@ -800,7 +804,7 @@ p {
   -webkit-transition: color var(--anim-slow);
   transition: color var(--anim-slow);
 }
-.exemples__text__text:hover {
+.exemples__text:hover {
   color: var(--accent-color);
 }
 
