@@ -16,9 +16,7 @@
   transition: outline var(--anim-slow);
 
   &__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex(center, center);
 
     height: 92px;
     color: var(--icon-color);

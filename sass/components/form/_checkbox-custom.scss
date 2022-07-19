@@ -1,7 +1,6 @@
 .checkbox-custom {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex(center, center, $type: inline-flex);
+
   width: 16px;
   height: 15px;
   outline: 2px solid var(--title-text-color);

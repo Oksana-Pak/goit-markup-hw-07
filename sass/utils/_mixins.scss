@@ -10,3 +10,9 @@
   padding-top: $padding;
   padding-bottom: $padding;
 }
+
+@mixin centeredFlex($jc, $ai, $type: flex) {
+  display: $type;
+  justify-content: $jc;
+  align-items: $ai;
+}

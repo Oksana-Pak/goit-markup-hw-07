@@ -4,9 +4,7 @@
   background-color: var(--title-bg-color);
 
   &__container {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    @include centeredFlex(space-between, baseline);
   }
 
   &__contacts {

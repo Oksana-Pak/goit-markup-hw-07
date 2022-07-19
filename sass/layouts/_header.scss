@@ -2,8 +2,7 @@
   border-bottom: 1px solid var(--container-color);
 
   &__container {
-    display: flex;
-    align-items: center;
+    @include centeredFlex(null, center);
   }
 
   &__logo {
@@ -14,8 +13,7 @@
 }
 
 .nav {
-  display: flex;
-  align-items: center;
+  @include centeredFlex(null, center);
 
   &__item:not(:last-of-type) {
     margin-right: 50px;
@@ -35,9 +33,8 @@
 
 .nav__link {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex(center, center);
+
   padding-top: 32px;
   padding-bottom: 32px;
 
